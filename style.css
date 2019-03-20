@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: red;
+    border: 2px solid black;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: springgreen;
+    border: 2px solid yellow;
+}
+
+.linkbox {
+    justify-content: center;
+    align-items: flex-start;
+    background: orange;
+    list-style-type: none;
+}
