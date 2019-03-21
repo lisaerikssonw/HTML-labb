@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="sv">
 
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="stylesheet" type="text/css" href="normalize.css" />
-    </head>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-    <body>
-        <header class="header">
+<body>
+    <div class="grid-container">
+        <header class="header center">
             <!-- sidhuvud med logga uppe till höger (till vänster i desktopversionen) -->
             <h1>Logga här</h1>
         </header>
 
-        <nav>
+        <nav class="nav">
             <ul class="flex-container">
                 <li class="flex-item"><a href="contact.html">Kontakt</a></li>
                 <li class="flex-item"><a href="http//www.google.com">Google</a></li>
             </ul>
-          
+
             <!-- Meny med länkar till vänster (till höger i desktopversionen) -->
         </nav>
 
-        <aside>
-        <!-- Övrigt(?) mellan nav och main (ska placeras till höger om main i desktopversionen) -->
-    </aside>
+        <aside class="aside">
+            <h3>Här ska det vara något övrigt.</h3>
+            <!-- Övrigt(?) mellan nav och main (ska placeras till höger om main i desktopversionen) -->
+        </aside>
 
-        <main>
+        <main class="main">
             <!-- Huvudinnehåll som innehåller divar/boxar med artiklar/produkter -->
-            <section> <!-- Gruppera artiklar/produkter (?)-->  </section>
+            <main>main</main>
+            <section>
+                <p>Produkter</p><!-- Gruppera artiklar/produkter (?)-->
+            </section>
         </main>
-    
-    <footer>
-        <!-- Sidfot -->
-    </footer>
 
-    </body>
+        <footer class="footer">
+           <p>Sidfot</p>
+            <!-- Sidfot -->
+        </footer>
+    </div>
+</body>
+
 </html>
