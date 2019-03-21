@@ -49,7 +49,7 @@
     background: burlywood;
 }
 
-.flex-container-left {
+.flex-container-nav {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -109,10 +109,23 @@ a:hover {
     }
 
     .flex-container-prod {
-        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: stretch;
+    }
+
+    .flex-container-nav {
+        justify-content: flex-end;
+    }
+
+    .header {
+        justify-content: flex-start;
+
+    }
+
+    .aside {
+        flex-wrap: wrap;
+        margin: 5px;
+        align-items: start;
     }
 }
