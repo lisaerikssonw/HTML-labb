@@ -2,22 +2,25 @@
 <html lang="sv">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startsida</title>
 </head>
 
 <body>
     <div class="grid-container">
-        <header class="header center">
+        <header class="header">
             <!-- sidhuvud med logga uppe till höger (till vänster i desktopversionen) -->
             <h1>Logga här</h1>
         </header>
 
         <nav class="nav">
-            <ul class="flex-container">
-                <li class="flex-item"><a href="contact.html">Kontakt</a></li>
-                <li class="flex-item"><a href="http//www.google.com">Google</a></li>
+            <ul class="flex-container-left">
+                <li class="flex-item-smallbox"><a href="contact.html">Kontakt</a></li>
+                <li class="flex-item-smallbox"><a href="product.html">Produkter</a></li>
+                <li class="flex-item-smallbox"><a href="http//www.google.com">Google</a></li>
             </ul>
 
             <!-- Meny med länkar till vänster (till höger i desktopversionen) -->
@@ -28,27 +31,25 @@
             <!-- Övrigt(?) mellan nav och main (ska placeras till höger om main i desktopversionen) -->
         </aside>
 
-        <main class="main">
+        <main class="main flex-container-prod">
             <!-- Huvudinnehåll som innehåller divar/boxar med artiklar/produkter -->
-            <section class="flex-container-prod">
                 <!-- Gruppera artiklar/produkter (?)-->
-                <div class="prod">
+                <div class="prodbox">
                     <h4>Produkt 1</h4>
                     <p>Produktbeskrivning</p>
-                    </div>
-                <div class="prod">
+                </div>
+                <div class="prodbox">
                     <h4>Produkt 2</h4>
                     <p>Produktbeskrivning</p>
                 </div>
-                <div class="prod">
+                <div class="prodbox">
                     <h4>Produkt 3</h4>
                     <p>Produktbeskrivning</p>
                 </div>
-            </section>
         </main>
 
         <footer class="footer">
-           <p>Sidfot</p>
+            <p>Sidfot</p>
             <!-- Sidfot -->
         </footer>
     </div>
