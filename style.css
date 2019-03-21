@@ -1,3 +1,7 @@
+body {
+    font-family: Calibri;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -6,17 +10,33 @@
     border: 2px solid black;
 }
 
-.nav {
+.flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background: springgreen;
-    border: 2px solid yellow;
+    list-style: none;
+    background: blue;
+    justify-content: flex-start;
+    margin:0;
 }
 
-.linkbox {
-    justify-content: center;
-    align-items: flex-start;
-    background: orange;
-    list-style-type: none;
+.flex-item {
+    border:2px solid black;
+    margin:20px;
+    padding:10px;
+    background: green;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
 }
