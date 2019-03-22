@@ -28,6 +28,8 @@
 }
 
 .nav {
+    display: flex;
+    align-items: center;
     grid-area: nav;
     background: #C6E1D1;
 }
@@ -55,14 +57,12 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .flex-item-smallbox {
     border:2px solid beige;
-    margin:10px;
-    padding:4px 8px;
+    margin: 4px 8px;
+    padding:2px 4px;
     background:white;
 }
 
@@ -170,7 +170,7 @@ a:hover {
         flex-wrap: wrap;
     }
 
-    .flex-container-nav {
+    .nav {
         justify-content: flex-end;
     }
 
