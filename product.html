@@ -11,32 +11,52 @@
 
 <body>
     <div class="grid-container">
+        
         <header class="header">
-            <!-- sidhuvud med logga uppe till höger (till vänster i desktopversionen) -->
             <h1>Logga här</h1>
         </header>
 
         <nav class="nav">
             <ul class="flex-container-nav">
-                <li class="flex-item-smallbox"><a href="contact.html">Kontakt</a></li>
-                <li class="flex-item-smallbox"><a href="product.html">Produkter</a></li>
+                <li class="flex-item-smallbox"><a href="index.html">Hem</a></li>
                 <li class="flex-item-smallbox"><a href="http//www.google.com">Google</a></li>
+                <li class="flex-item-smallbox"><a href="contact.html">Kontakt</a></li>
             </ul>
-
-            <!-- Meny med länkar till vänster (till höger i desktopversionen) -->
         </nav>
 
         <aside class="aside">
             <h3>Här ska det vara något övrigt.</h3>
-            <!-- Övrigt(?) mellan nav och main (ska placeras till höger om main i desktopversionen) -->
         </aside>
 
-        <main class="main">
-            <!-- Presentera en produkt med tabell -->
-            <section class="flex-container-column">
-                
+        <main class="main flex-container">
 
-            </section>
+            <div class="flex-prod">
+               <h3>Produktnamn</h3> 
+
+               <table>
+                   <tr>
+                       <th>Produktnamn</th>
+                       <th>Pris</th>
+                       <th>Finns i lager?</th>
+                   </tr>
+                   <tr>
+                       <td>Produkt 2</td>
+                       <td>100 kr</td>
+                       <td>Ja</td>
+                   </tr>
+                   <tr>
+                        <td>Produkt 3</td>
+                        <td>250 kr</td>
+                        <td>Nej</td>
+                    </tr>
+                    <tr>
+                            <td>Produkt 4</td>
+                            <td>50 kr</td>
+                            <td>Nej</td>
+                        </tr>
+               </table>
+            </div>
+        
         </main>
 
         <footer class="footer">
