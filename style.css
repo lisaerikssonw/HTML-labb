@@ -46,7 +46,7 @@
 
 .footer {
     grid-area: footer;
-    background: burlywood;
+    background: #28B463;
 }
 
 .flex-container-nav {
@@ -78,6 +78,50 @@
     margin: 8px;
     padding: 10px;
     background: #48BF7A;
+}
+
+.flex-container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact-container {
+    background: white;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    position: relative;
+}
+
+.pic-container {
+    float: left;
+    width: 50%;
+}
+
+.pic {
+    height: 200px;
+    width: 150px;
+}
+
+
+.contact-info {
+    float: right;
+    width: 50%;
+}
+
+.name {
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+}
+
+.info { 
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+    list-style-position: inside;
 }
 
 a:link {
