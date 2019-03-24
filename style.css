@@ -79,10 +79,35 @@
 }
 
 .prodbox {
+    display: flex;
     width: 60%;
     margin: 8px;
     padding: 10px;
-    background: #48BF7A;
+    background: white;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.img-textbox {
+    display: flex;
+    transition: .5s ease;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text {
+    background: black;
+    color: white;
+}
+
+.prodbox:hover .img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.prodbox:hover .img-textbox {
+    opacity: 1;
 }
 
 .flex-container-contact {
@@ -106,7 +131,6 @@
 .img {
     max-width: 100%;
 }
-
 
 .contact-info {
     float: right;
