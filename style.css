@@ -115,6 +115,10 @@
     max-width: 100%;
 }
 
+.img2 {
+    max-width: 50%;
+}
+
 .contact-info {
     float: right;
     width: 50%;
@@ -137,6 +141,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 6px;
 }
 
@@ -146,6 +152,7 @@
 }
 
 .prod-table-div {
+    height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,18 +231,15 @@ a:hover {
 
     .prod-container {
         flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-    .prod-table-div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     
     .prod-img-div {
         width: 50%;
         align-self: flex-start;
+    }
+
+    .img2 {
+        max-width: 100%;
     }
 
 }
