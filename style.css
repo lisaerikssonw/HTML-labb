@@ -83,13 +83,11 @@
 .prodbox {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    align-items: center;
+    max-width: 60%;
+    flex-wrap: wrap;
     margin: 8px;
     padding: 10px;
-    background: white;
-    align-items: center;
-    justify-content: center;
-    
 }
 
 .prodbox:hover .img {
@@ -121,7 +119,7 @@
 }
 
 .img {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .img2 {
@@ -221,7 +219,7 @@ a:hover {
 
     .prodbox {
         height: 60%;
-        width: 30%;
+        max-width: 30%;
         margin: 3px;
         padding: 5px;
         flex-wrap: wrap;
@@ -249,6 +247,10 @@ a:hover {
     .prod-img-div {
         width: 50%;
         align-self: flex-start;
+    }
+
+    .img {
+        max-width: 100%;
     }
 
     .img2 {
