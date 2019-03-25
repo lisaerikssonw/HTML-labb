@@ -105,14 +105,15 @@
 }
 
 .contact-container {
-    background: white;
+    font-size: 80%;
+    background: #fff6f2;
     margin: 20px;
     position: relative;
 }
 
 .img-container {
     float: left;
-    width: 50%;
+    width: 40%;
 }
 
 .img {
@@ -141,6 +142,10 @@
     position: absolute;
     bottom: 5px;
     list-style-position: inside;
+}
+
+.info li {
+    font-size: 80%;
 }
 
 .prod-container {
