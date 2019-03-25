@@ -88,26 +88,9 @@
     border: 1px solid black;
 }
 
-.img-textbox {
-    display: flex;
-    transition: .5s ease;
-    opacity: 0;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-text {
-    background: black;
-    color: white;
-}
-
 .prodbox:hover .img {
     opacity: 0.5;
     filter: alpha(opacity=50);
-}
-
-.prodbox:hover .img-textbox {
-    opacity: 1;
 }
 
 .flex-container-contact {
