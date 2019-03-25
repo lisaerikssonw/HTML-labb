@@ -8,7 +8,7 @@
     display: grid;
     min-height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 10% 5% 10% auto 10%;
+    grid-template-rows: 17% 5% 10% auto 10%;
     grid-template-areas:
     "header header header header"
     "nav nav nav nav"
@@ -23,6 +23,7 @@
     justify-content: flex-end;
     align-items: center;
     background: #f9f5e3;
+    color: black;
     grid-area: header;
     border-bottom: 2px dotted black;
 }
@@ -44,7 +45,6 @@
     background: white;
     grid-area: aside;
     border-bottom: 1px solid lightgrey;
-    
 }
 
 .main {
@@ -114,6 +114,10 @@
 .img-container {
     float: left;
     width: 40%;
+}
+
+.logo {
+    max-height: 100px;
 }
 
 .img {
