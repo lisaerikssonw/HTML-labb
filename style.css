@@ -8,7 +8,7 @@
     display: grid;
     min-height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 10% 5% 10% 65% 10%;
+    grid-template-rows: 10% 5% 10% auto 10%;
     grid-template-areas:
     "header header header header"
     "nav nav nav nav"
@@ -43,7 +43,8 @@
     align-items: center;
     background: white;
     grid-area: aside;
-    border-left: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    
 }
 
 .main {
@@ -55,6 +56,7 @@
 .footer {
     grid-area: footer;
     background: #f9f5e3;
+    font-size: 75%;
 }
 
 .flex-container-nav {
@@ -80,12 +82,14 @@
 
 .prodbox {
     display: flex;
+    flex-direction: column;
     width: 60%;
     margin: 8px;
     padding: 10px;
     background: white;
     align-items: center;
-    border: 1px solid black;
+    justify-content: center;
+    
 }
 
 .prodbox:hover .img {
@@ -117,6 +121,8 @@
 
 .img2 {
     max-width: 50%;
+    margin: 0 auto;
+    display: block;
 }
 
 .contact-info {
@@ -138,7 +144,7 @@
 }
 
 .prod-container {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -191,9 +197,6 @@ a:hover {
 
 @media(min-width:600px) {
     .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 100px 50px 100px auto 50px;
         grid-template-areas:
         "header header header header"
         "nav nav nav nav"
@@ -227,6 +230,7 @@ a:hover {
         flex-wrap: wrap;
         margin: 5px;
         align-items: start;
+        border-left: 1px solid lightgrey;
     }
 
     .prod-container {
