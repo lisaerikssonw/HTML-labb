@@ -52,12 +52,28 @@
 }
 
 .aside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: white;
     grid-area: aside;
     border-bottom: 1px solid lightgrey;
+    color: gray;
+    padding: 6px;
+}
+
+.event-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.event {
+    margin-right: 20px;
+    margin-top: 8px;
+    font-size: 70%;
 }
 
 .main {
@@ -286,6 +302,15 @@ a:hover {
 
     .prod-img {
         max-width: 100%;
+    }
+    .event-list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .event {
+        margin-right: 0px;
+        margin-top: 20px;
     }
 
 }
