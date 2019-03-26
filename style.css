@@ -74,10 +74,18 @@
 
 .flex-container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .prodbox {
@@ -212,7 +220,7 @@ a:hover {
         "footer footer footer footer";
     }
 
-    .flex-container {
+    .start {
         flex-direction: row;
         justify-content: space-evenly;
     }
