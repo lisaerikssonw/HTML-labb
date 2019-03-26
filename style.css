@@ -22,7 +22,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    background: #e28e92;
+    background: #fcc4c8;
     color: black;
     grid-area: header;
     border-bottom: 2px dotted black;
@@ -54,9 +54,27 @@
 }
 
 .footer {
+    display: flex;
+    flex-direction: row;
     grid-area: footer;
     background: #f9f5e3;
     font-size: 75%;
+    padding: 20px;
+}
+
+.footer img {
+    max-height: 80px;
+}
+
+.footer section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.footer p {
+    margin-top: 5px;
 }
 
 .flex-container-nav {
