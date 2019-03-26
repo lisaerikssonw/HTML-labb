@@ -281,10 +281,8 @@ a:hover {
     }
 
     .aside {
-        flex-wrap: wrap;
-        margin: 5px;
-        align-items: start;
         border-left: 1px solid lightgrey;
+        border-bottom: none;
     }
 
     .prod-container {
