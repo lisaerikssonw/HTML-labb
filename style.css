@@ -23,7 +23,6 @@
     justify-content: flex-end;
     align-items: center;
     background: #fff8e5;
-    color: black;
     grid-area: header;
     border-bottom: 2px dotted black;
 }
@@ -48,11 +47,9 @@
     border:2px solid beige;
     margin: 4px 8px;
     padding:2px 4px;
-    background:white;
 }
 
 .aside {
-    background: white;
     grid-area: aside;
     border-bottom: 1px solid lightgrey;
     color: gray;
@@ -71,7 +68,8 @@
 }
 
 .event {
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-top: 8px;
     font-size: 70%;
 }
@@ -147,7 +145,7 @@
 
 .contact-container {
     font-size: 80%;
-    background: #fff6f2;
+    background: #f2f2f2;
     margin: 20px;
     position: relative;
 }
