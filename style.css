@@ -274,7 +274,6 @@ a:hover {
         max-width: 30%;
         margin: 3px;
         padding: 5px;
-        flex-wrap: wrap;
     }
 
     nav {
@@ -296,7 +295,6 @@ a:hover {
     
     .prod-img-div {
         width: 50%;
-        align-self: flex-start;
     }
 
     .img {
