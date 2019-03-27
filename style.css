@@ -77,7 +77,6 @@ aside {
 main {
     grid-area: main;
     min-height: 400px;
-    background: white;
 }
 
 footer {
@@ -131,6 +130,10 @@ footer p {
     padding: 10px;
 }
 
+.prod-link {
+    margin-top: 10px;
+}
+
 .prodbox:hover .img {
     opacity: 0.5;
     filter: alpha(opacity=50);
@@ -152,7 +155,16 @@ footer p {
 
 .img-container {
     float: left;
-    width: 40%;
+    max-width: 50%;
+}
+
+.contact-img {
+    max-width: 100%;
+}
+
+.contact-info {
+    float: right;
+    width: 50%;
 }
 
 .logo {
@@ -167,11 +179,6 @@ footer p {
     max-width: 50%;
     margin: 0 auto;
     display: block;
-}
-
-.contact-info {
-    float: right;
-    width: 50%;
 }
 
 .name {
@@ -299,6 +306,7 @@ a:hover {
     .prod-img {
         max-width: 100%;
     }
+
     .event-list {
         flex-direction: column;
         text-align: center;
