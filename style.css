@@ -158,6 +158,12 @@ footer p {
     max-width: 50%;
 }
 
+.contact-container::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
 .contact-img {
     max-width: 100%;
 }
